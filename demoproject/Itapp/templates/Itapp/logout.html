@@ -1,0 +1,10 @@
+{% extends 'Itapp/base.html' %}
+{% block title %}Logout{% endblock %}
+{% block content %}
+<div class="container">
+	<div class="card mt-3 mx-auto mt-5 col-md-6">
+		<h2 class="bg-secondary text-center text-white mt-2">You have been logged out </h2>
+		<a href="{% url 'login' %}" class="btn btn-outline info">Login again</a>
+	</div>
+</div>
+{% endblock %}
